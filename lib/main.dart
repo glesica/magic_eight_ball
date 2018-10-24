@@ -4,7 +4,7 @@ import 'package:magic_eight_ball/src/eight_ball.dart';
 void main() => runApp(new EightBallApp());
 
 class EightBallApp extends StatelessWidget {
-  // This widget is the root of your application.
+  // This widget is the root of your application.flutter
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
@@ -28,6 +28,10 @@ class EightBallApp extends StatelessWidget {
         'No. Just no.',
         'Sure, why not.',
         'Meh...',
+      ], [
+        Colors.blue,
+        Colors.purple,
+        Colors.red
       ]),
     );
   }
